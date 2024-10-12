@@ -1,0 +1,102 @@
+h1 {
+    font-family: 'Verdana', sans-serif;
+    color: black;
+    text-shadow: 2px 2px 5px orange;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: 'Verdana', sans-serif;
+    color: black;
+    text-shadow: 2px 2px 5px orange;
+    margin-bottom: 20px;
+}
+
+body {
+    background-color: #87ceeb;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgb(249, 195, 96);
+    transition: 0.3s;
+    height: 100%;
+}
+
+.card-title {
+    font-family: 'Verdana', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+}
+
+.card-text {
+    font-family: 'Verdana', sans-serif;
+    text-align: justify;
+    color: black;
+}
+
+.card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.btn-primary {
+    background-color: #87ceeb;
+    color: black;
+    font-weight: bold;
+    border-color: #87ceeb;
+    width: 100%;
+    margin-top: auto;
+    text-align: center;
+    font-family: 'Verdana', sans-serif;
+}
+
+.btn-primary:hover {
+    background-color: black;
+    border-color: black;
+}
+
+.subscription-container {
+    text-align: center;
+}
+
+.subscription-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-family: 'Verdana', sans-serif;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: black;
+}
+
+.subscription-form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(249, 195, 96);
+    background-color: rgb(249, 195, 96);
+}
+
+.subscription-form button {
+    background-color: rgb(249, 195, 96);
+    color: black;
+    font-weight: bold;
+    border-color: #87ceeb;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
